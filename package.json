@@ -38,6 +38,9 @@
     "prop-types": "*",
     "react": ">=0.14.0"
   },
+  "dependencyNotes": {
+    "gulp-markdown-to-json": "Locked to v1.0.3 due to a bug introduced in v1.1.0. The bug makes the outputted files .md files which breaks the build process, they should be outputted as .json files. Github issue here: https://github.com/sparkartgroup/gulp-markdown-to-json/issues/28"
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
@@ -66,7 +69,7 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-git": "^2.2.0",
     "gulp-less": "^3.3.0",
-    "gulp-markdown-to-json": "^1.0.3",
+    "gulp-markdown-to-json": "1.0.3",
     "gulp-minify-css": "^1.2.4",
     "gulp-recess": "^1.2.0",
     "gulp-task-listing": "^1.0.1",
