@@ -83,7 +83,7 @@
   },
   "scripts": {
     "build": "npm run clean && npm run npm:build:css && npm run npm:babel:js && npm run docs:build-sequence",
-    "clean": "rm -rf ./lib && mkdir ./lib",
+    "clean": "rm -rf ./lib && mkdir ./lib && rm -rf ./tmp && mkdir ./tmp",
     "docs:build-sequence": "npm run docs:clean && $(npm bin)/gulp build:docs-gulp-sequence",
     "docs:clean": "rm -rf ./src_docs/markdown/js/**/* docs_generated/*",
     "npm:babel:js": "$(npm bin)/babel src/react-super-select.js --out-file lib/react-super-select.js",
