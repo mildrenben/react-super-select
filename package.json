@@ -80,7 +80,7 @@
     "marked": "^0.7.0",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": ">=15.5.4",
+    "react-dom": "^15.5.4",
     "run-sequence": "^1.2.2",
     "uglifyify": "^3.0.4"
   },
