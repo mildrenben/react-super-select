@@ -20,7 +20,7 @@ To build and run the examples locally, run:
 
 ```
 npm install
-gulp build
+npm run build
 gulp dev
 ```
 
