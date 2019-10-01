@@ -32,7 +32,7 @@ import { bindAll,
          reduce,
          reject,
          uniqueId,
-         values } from 'lodash';
+         values } from 'lodash-es';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
